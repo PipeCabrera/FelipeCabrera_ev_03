@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
             Libros.add("Farenheith");
             Libros.add("Revival");
             Libros.add("El Alquimista");
+            Libros.add("El Poder");
+            Libros.add("Despertar");
             Intent i = new Intent(getBaseContext(), github_act.class);
             i.putExtra("ListadoLibros", Libros);
             startActivity(i);

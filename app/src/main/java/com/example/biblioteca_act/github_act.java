@@ -35,17 +35,26 @@ public class github_act extends AppCompatActivity {
 
         if (Libros.equals("Farenheith"))
         {
-            textv.setText("El resultado de Farenheith es : 5000");
+            textv.setText("El resultado de Farenheith es : 7000");
         }
 
         if (Libros.equals("Revival"))
         {
-            textv.setText("El resultado de Revival es :12000");
+            textv.setText("El resultado de Revival es :22000");
 
         }
         if (Libros.equals("El Alquimista"))
         {
             textv.setText("El resultado de El Alquimista es : 45000");
+        }
+
+        if (Libros.equals("El Poder"))
+        {
+            textv.setText("El resultado de El Poder es : 88000");
+        }
+        if (Libros.equals("Despertar"))
+        {
+            textv.setText("El resultado de el Despertar es : 156000 ");
         }
 
     }
